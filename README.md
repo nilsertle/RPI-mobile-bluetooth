@@ -1,5 +1,5 @@
 # RPI-Mobile-Bluetooth
-The aim of this project is sending and receiving data from a Raspberry Pi to a mobile device through bluetooth. I will only use the terminal for simplification and more support over all the different versions of the RPI (Raspberry Pi).
+The aim of this project is sending data from a Raspberry Pi to a mobile device through bluetooth. I will only use the terminal for simplification and more support over all the different versions of the RPI (Raspberry Pi).
 ## Raspberry Pi
 ### Set up bluetooth
 In the beginning I have to change some lines in the bluetooth library of the RPI. Therefor I open the required file with `nano` and `sudo` so I can edit it.
