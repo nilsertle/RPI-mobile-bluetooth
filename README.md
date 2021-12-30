@@ -44,3 +44,6 @@ echo "My text!" > /dev/rfcomm0
 ```
 ## Mobile Device (Android)
 To see the output I have to install the [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) app on my mobile device. Then I open it and select the RPI. A terminal opens and shows the printed text.
+
+<img src="https://user-images.githubusercontent.com/89461027/147749254-9f737f5d-6160-46b8-9cfd-972c5bb8a6dc.jpeg" height="500">
+
