@@ -31,11 +31,16 @@ I choose one device from the list. For me this is `[NEW] Device D0:49:7C:A3:B6:B
 ```
 pair D0:49:7C:A3:B6:B6
 ```
-My phone asks me if i want to pair. Meanwhile the RPI should print `Attempting to pair` and then I have to type yes when the RPI asks for it. Finally I trust this device.
+My phone asks me if i want to pair. Meanwhile the RPI should print `Attempting to pair` and then I have to type yes when the RPI asks for it. Finally I trust this device and make it discoverable.
 ```
 trust D0:49:7C:A3:B6:B6
+discoverable on
 ```
 ----
-
+### Sending data
+To send data from the RPI to the mobile device I return to the normal terminal with `exit` and write the following.
+```
+echo "My text!" > /dev/rfcomm0
+```
 ## Mobile Device (Android)
-
+To see the output I have to install the [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) app on my mobile device. Then I open it and select the RPI. A terminal opens and shows the printed text.
