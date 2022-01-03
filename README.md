@@ -40,7 +40,7 @@ discoverable on
 ### Sending data
 To send data from the RPI to the mobile device I return to the normal terminal with `exit` and write the following.
 ```
-echo "My text!" > /dev/rfcomm0
+echo "Coding is awesome!" > /dev/rfcomm0
 ```
 ## Mobile Device (Android)
 To see the output I have to install the [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) app on my mobile device. Then I open it and select the RPI. A terminal opens and shows the printed text.
